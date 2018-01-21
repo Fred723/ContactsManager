@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <title>Gestion de contacts</title>
+    </head>
+    <body>
+		<div id="header">
+			Gestion de contacts
+		</div>
+		<center>
+			<button id="recuperer_contacts" class="btn btn-primary" onclick="javascript:contacts.listAll()">Récupérer les contacts</button>
+			<div id="chargement">Chargement en cours...</div>
+		</center>
+		<div id="list">
+		</div>
+		<div id="contacts">
+		</div>
+		<a id="retour" class="btn btn-primary" href="#" onclick="javascript:contacts.retourListe()">Retour à la liste</a>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="js/contacts.js"></script>
+		<script type="text/javascript">
+			app.initialize();
+		</script>
+    </body>
+</html>

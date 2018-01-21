@@ -1,0 +1,49 @@
+#header {
+	background: #3498db;
+	color: #FFF;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.3em;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+#chargement {
+	display: none;
+}
+
+#retour {
+	display: none;
+	margin: 20px;
+}
+
+#list {
+	margin-top: 20px;
+}
+
+#list > a {
+	display: block;
+	padding: 10px 15px;
+	border-bottom: solid 1px #EEE;
+	text-decoration: none;
+	color: #555;
+	font-size: 1.1em;
+}
+
+#list > a:nth-child(even) {
+	background: #FAFAFA;
+}
+
+#contacts > div {
+	display: none;
+	margin: 50px 20px;
+}
+
+#contacts .name {
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+#contacts .phone {
+	color: #555;
+}
